@@ -1,0 +1,25 @@
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.photo-container{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+}
+
+.photo-body{
+    width: 290px;
+    height: 290px;
+}
+
+.photo-body .img{
+    width: 290px;
+    height: 290px;
+}

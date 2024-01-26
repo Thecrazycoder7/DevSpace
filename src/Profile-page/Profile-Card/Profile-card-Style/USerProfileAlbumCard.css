@@ -1,0 +1,29 @@
+.album-profile{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 40px;
+        border-bottom: 2px solid #c393f0;
+        padding: 0px 10px;
+        backdrop-filter: blur(10px);
+}
+    
+.albumbody{
+    color: #d1f116;
+    width: 100%;
+    display: inline;
+    text-decoration: none;
+    outline: none;
+    background: none;
+    border: none;
+    font-size: 20px;
+    text-align: left;
+}
+
+.albumbody:hover{
+    color: #00ff8c;
+}
+
+.btngroup{
+    display: flex;
+}

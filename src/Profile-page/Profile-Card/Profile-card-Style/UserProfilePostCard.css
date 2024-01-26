@@ -1,0 +1,31 @@
+.post-container{
+    inset: 15px;
+    position: absolute;
+}
+
+.post-container span:nth-child(1) {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.post-container span:nth-child(2) {
+    font-size: 15px;
+    color: #93eefc;
+}
+
+.comment-btn{
+    text-decoration: none;
+    margin-left: 10px;
+    color: #c393f0;
+    font-size: 15px;
+    padding: 5px 10px;
+    font-weight: 500;
+    float: right;
+    cursor: pointer;
+}
+
+.comment-btn:hover{
+    border-bottom: 2px solid #c393f0;
+    box-shadow: 0 2px 10px -5px #c393f0;
+}

@@ -1,0 +1,16 @@
+.album-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-bottom: 2px solid #c393f0;
+    padding: 0px 10px;
+    backdrop-filter: blur(10px);
+    color: #d1f116;
+}
+
+.album-body {
+    width: 100%;
+    display: inline;
+}

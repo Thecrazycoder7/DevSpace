@@ -1,0 +1,10 @@
+.form{
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid #d6ef0d;
+}
+
+.form-btn{
+    font-weight: 600;
+    color: blacks;
+}
