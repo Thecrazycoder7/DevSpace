@@ -1,5 +1,7 @@
-.container-body{
+.container-body {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%; /* Optional: Ensures the container takes full height if needed */
+    padding: 20px; /* Optional: Adds padding for spacing around content */
 }
