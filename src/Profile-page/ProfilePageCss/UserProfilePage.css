@@ -1,7 +1,7 @@
 .container-box{
     margin-top: 20px;
     padding-bottom: 5px;
-    border-bottom: 2px solid #c5eb14;
+    border-bottom: 2px solid #3498db;
 }
 
 .link-style {
@@ -10,8 +10,8 @@
     text-decoration: none;
     outline: none;
     padding: 5px 15px;
-    border: 2px solid #c5eb14;
-    color: #c5eb14;
+    border: 2px solid #3498db;
+    color: #3498db;
     font-weight: 500;
     font-size: 15px;
     border-radius: 5px;
