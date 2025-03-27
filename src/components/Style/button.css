@@ -1,19 +1,18 @@
-.btn-style{
+.btn-style {
     background: none;
     padding: 10px 20px;
-    color: #c393f0;
+    color: #007bff;
     border-radius: 5px;
-    border: 2px solid #c393f0;
+    border: 2px solid #007bff;
     text-align: center;
     margin: 0 5px;
     cursor: pointer;
-    transition: background 0.5s ease-in-out,
-    transform 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
-.btn-style:hover{
-    background: #c393f0;
-    color: #343641;
+.btn-style:hover {
+    background: #007bff;
+    color: #fff;
     font-weight: 600;
     transform: scale(1.05);
 }
