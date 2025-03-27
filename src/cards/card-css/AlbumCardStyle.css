@@ -4,10 +4,10 @@
     align-items: center;
     justify-content: center;
     height: 40px;
-    border-bottom: 2px solid #c393f0;
+    border-bottom: 2px solid #007bff;
     padding: 0px 10px;
     backdrop-filter: blur(10px);
-    color: #d1f116;
+    color: #333;
 }
 
 .album-body {
