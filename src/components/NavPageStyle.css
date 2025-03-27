@@ -1,51 +1,49 @@
-.nav-bar{
+.nav-bar {
     position: sticky;
     background: transparent;
     backdrop-filter: blur(20px);
 }
 
-.btn-group{
+.btn-group {
     width: 250px;
     display: flex;
     justify-content: space-between;
 }
-.rotate-icon{
+
+.rotate-icon {
     margin-right: 5px;
     animation: FitbitIcon 5s infinite;
 }
 
 @keyframes FitbitIcon {
-            from {
-                transform: rotate(0deg);
-            }
-    
-            to {
-                transform: rotate(360deg);
-            }
-        }
-
-
-.btn{
-        border: none;
-        padding: 8px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 17px;
-        margin: 4px 2px;
-        border-radius: 5px;
-        transition-duration: 0.4s;
-        cursor: pointer;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 15px rgba(0, 0, 0, 0.1);
-        transition: background 0.5s ease-in-out,
-        transform 0.5s ease-in-out;
-        border: 2px solid #c7ef13;
-        color: #c7ef13;
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
-.btn:hover{
-    color: #343641;
+.btn {
+    border: none;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: background 0.5s ease-in-out, transform 0.5s ease-in-out;
+    border: 2px solid #007bff;
+    color: #007bff;
+}
+
+.btn:hover {
+    color: #fff;
     font-weight: 500;
-    background: #c7ef13;
+    background: #007bff;
     transform: scale(1.05);
 }
