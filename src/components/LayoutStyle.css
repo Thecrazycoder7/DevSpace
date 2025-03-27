@@ -1,4 +1,5 @@
-body{
+body {
     background: #343641;
     margin-top: 100px;
+    color: #fff; /* Adds white text for contrast */
 }
